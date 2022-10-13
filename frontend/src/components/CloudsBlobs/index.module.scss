@@ -1,0 +1,92 @@
+.cloud1{
+  position: absolute;
+  top:43%;
+  animation-duration: 24s;
+  animation-name: slideLeft;
+  animation-iteration-count: infinite
+}
+
+.cloud2{
+  position: absolute;
+  top:66%;
+  animation-duration: 28s;
+  animation-name: slideRight;
+  animation-iteration-count: infinite
+}
+
+.cloud3{
+  position: absolute;
+  top:61%;
+  animation-duration: 21s;
+  animation-name: slideRight;
+  animation-iteration-count: infinite
+}
+
+.cloud4{
+  position: absolute;
+  top: 67.46%;
+  animation-duration: 25s;
+  animation-name: slideLeft;
+  animation-iteration-count: infinite;
+}
+
+.cloud5{
+  position: absolute;
+  top:101px;
+  animation-duration: 32s;
+  animation-name: slideRight;
+  animation-iteration-count: infinite
+}
+
+.cloud6{
+  position: absolute;
+  top:55%;
+  animation-duration: 46s;
+  animation-name: slideLeft;
+  animation-iteration-count: infinite
+}
+
+.cloud7{
+  position: absolute;
+  left: 0;
+  top: 35.46%;
+}
+
+.cloud8{
+  position: absolute;
+  top: 22.7%;
+  animation-duration: 35s;
+  animation-name: slideLeft;
+  animation-iteration-count: infinite
+}
+
+.cloud9{
+  position: absolute;
+  left: 0;
+  top: 16.48%;
+}
+
+.cloud10{
+  position: absolute;
+  top: 11.63%;
+  animation-duration: 43s;
+  animation-name: slideRight;
+  animation-iteration-count: infinite
+}
+
+@keyframes slideLeft {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -30%;
+  }
+}
+@keyframes slideRight {
+  from {
+    left: -30%;
+  }
+  to {
+    left:85%;
+  }
+}
